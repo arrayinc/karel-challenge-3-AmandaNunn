@@ -11,3 +11,5 @@ The steps involved are to:
 5. Move forward to the east end of the world.
 
 */
+
+import "turns";
