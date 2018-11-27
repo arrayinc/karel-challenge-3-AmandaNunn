@@ -13,3 +13,29 @@ The steps involved are to:
 */
 
 import "turns";
+
+function SolveChallenge(){
+	move();
+	climbMountain();
+	putBeeper();
+	descendMountain();
+	move();
+}
+
+function climbMountain(){
+	repeat(4){
+		turnLeft();
+		move();
+		turnRight();
+		move();
+	}
+}
+
+function descendMountain(){
+	repeat(4){
+		move();
+		turnRight();
+		move();
+		turnLeft();
+	}
+}
